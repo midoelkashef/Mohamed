@@ -1,0 +1,338 @@
+body {
+	background-image: url('static/img/background.jpg');
+	background-color: gainsboro;
+	font-size: 87%;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+a:link,
+a:visited {
+	color: white;
+	padding: 10px 40px;
+	display: inline-block;
+	height: 20px;
+}
+a:hover,
+a:active {
+	color: white;
+	background-color: darkslategrey;
+	text-shadow: none;
+}
+
+.theBody {
+	margin: 10px auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainHeader img {
+	width: 100%;
+}
+.mainHeader nav {
+	background-color: #008080;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	display: inline;
+}
+
+.mainContent {
+	width: 50%;
+	float: left;
+}
+
+.mainContent_2 {
+	width: 100%;
+	float: left;
+}
+
+.topContent {
+	background-color: white;
+	padding: 3%;
+	margin-top: 3%;
+	border-radius: 5px;
+	border-color: teal;
+}
+
+.info p {
+	font-size: medium;
+	font-weight: 500;
+	color: black;
+}
+
+.info_2 ul li {
+	font-size: medium;
+	font-weight: 500;
+	color: black;
+}
+
+.info_2 ol li {
+	font-size: medium;
+	font-weight: 500;
+	color: black;
+}
+
+.info_3 {
+	font-size: medium;
+	font-weight: 500;
+	color: black;
+}
+
+.post {
+	background-color: white;
+	border-radius: 5px;
+	width: 49%;
+	float: left;
+	text-align: center;
+	margin: 1.5% 0 1% 1%;
+	padding: 2% 0;
+}
+
+.post p {
+	font-size: xx-large;
+	color: teal;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.post_2 {
+	width: 49%;
+	float: left;
+}
+
+.post_2 img {
+	width: 100%;
+	padding: 1% 2%;
+}
+
+.footer {
+	float: left;
+	width: 100%;
+	background-color: teal;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px auto;
+	height: 50px;
+}
+
+.footer p {
+	width: 100%;
+	color: white;
+	height: 20px;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	margin: 10px 0;
+}
+.social a:hover {
+	text-decoration: none;
+	background-color: white;
+}
+
+.line {
+	display: inline-block;
+}
+
+.icon {
+	background: url('img/udemy_2.jpg');
+	float: left;
+	margin-right: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+.icon_2 {
+	background: url('img/Udacity.jpg');
+	float: left;
+	margin-right: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+.icon_3 {
+	background: url('img/edraak.jpg');
+	float: left;
+	margin-right: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+.icon_4 {
+	background: url('img/Udacity.jpg');
+	float: left;
+	margin-right: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+.icon_5 {
+	background: url('img/ibm.jpg');
+	float: left;
+	margin-right: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+.icon_6 {
+	background: url('img/Cairo_University.jpg');
+	float: left;
+	margin-right: 10px;
+	height: 52px;
+	width: 40px;
+}
+
+.icon_7 {
+	background: url('img/sabre.jpg');
+	float: left;
+	margin-right: 10px;
+	height: 40px;
+	width: 60px;
+}
+
+.icon_8 {
+	background: url('img/amadeus.jpg');
+	float: left;
+	margin-right: 10px;
+	height: 40px;
+	width: 60px;
+}
+
+.share p {
+	font-size: large;
+	font-weight: 500;
+	color: black;
+}
+
+.share h2 a {
+	color: black;
+}
+
+input[type=text],
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 10px auto;
+	border: 1px solid darkcyan;
+	border-radius: 3px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: darkcyan;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.dates {
+	color: grey;
+	font-style: italic;
+	font-family: fantasy;
+}
+
+/*------------------Tab and mobile Devices------------------------------- */
+
+@media screen and (max-width: 850px) {
+	.theBody {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 665px) {
+	.theBody {
+		width: 90%;
+	}
+
+	a:link,
+	a:visited {
+		padding: 10px 10px;
+		display: inline-block;
+		height: 20px;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	a:link,
+	a:visited {
+		padding: 10px 10px;
+		display: inline-block;
+		height: 20px;
+	}
+
+	.mainContent {
+		width: 100%;
+		float: left;
+	}
+
+	.post {
+		width: 100%;
+	}
+
+	.post_2 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.theBody {
+		width: 100%;
+	}
+
+	.mainContent {
+		width: 100%;
+		float: left;
+	}
+
+	.post {
+		width: 100%;
+	}
+
+	.post_2 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.mainHeader nav {
+		height: 120px;
+		text-align: center;
+	}
+
+	.mainHeader nav ul {
+		width: 100%;
+		padding: 0;
+	}
+
+	a:link,
+	a:visited {
+		display: block;
+	}
+
+	.mainContent {
+		width: 100%;
+		float: left;
+	}
+
+	.post {
+		width: 100%;
+	}
+
+	.post_2 {
+		width: 100%;
+	}
+}

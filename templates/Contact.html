@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="icon" type="image/png" href="static/img/favicon.png" />
+    <title>Contact Me</title>
+</head>
+
+<body class="theBody">
+    <header class="mainHeader">
+        <img src="static/img/contact_me.jpg" alt="" width="100%">
+        <nav>
+            <ul>
+                <li> <a href="./index.html"><i class="fa fa-home"></i> Home Page</a></li>
+                <li> <a href="./Education.html"><i class='fas fa-user-graduate'></i> Education</a></li>
+                <li> <a href="./Experiences.html"><i class='fas fa-business-time'></i>Work Experience</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div>
+        <h3> It's Pleasure To Hear You!</h3>
+
+        <section class="contener">
+            <form action="submit_form" method="POST">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your Name...">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your Last Name...">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="emailaddrees" placeholder="Your Email Address..." style="width: 100%; 	padding: 10px;
+                    margin: 10px auto; border: 1px solid darkcyan; border-radius: 3px; box-sizing: border-box;
+                    resize: vertical;">
+
+                <label for="mobile">Mobile Number</label>
+                <input type="text" id="mobile" name="mobilenumber" placeholder="Your Mobile Number...">
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write Your Message.."
+                    style="height:200px"></textarea>
+
+                <input type="submit" value="submit">
+
+
+            </form>
+        </section>
+
+    </div>
+
+    <footer class="footer">
+        <p>
+            Built By Mohamed Mostafa
+        </p>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
